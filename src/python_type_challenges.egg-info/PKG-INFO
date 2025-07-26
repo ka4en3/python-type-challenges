@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: python-type-challenges
+Version: 0.1.0
+Summary: Python type annotation challenges
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: mypy>=1.13.0; extra == "dev"
+Requires-Dist: pyright>=1.1.389; extra == "dev"
+
+# Python Type Challenges
+
+Solutions for Python type annotation challenges from https://python-type-challenges.zeabur.app
+
+## Structure
+
+- `src/basic/` - Basic level challenges
+- `src/intermediate/` - Intermediate level challenges
+
+## Local Development
+
+### Prerequisites
+- Docker
+- Docker Compose
+
+### Type Checking
+
+Run type checking with both mypy and pyright:
+
+```bash
+make typing
+```
+
+### Build Docker image:
+```bash
+make build
+```
+
+### Clean up:
+```bash
+make clean
+```

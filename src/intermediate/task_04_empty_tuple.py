@@ -1,0 +1,7 @@
+"""Task: foo should accept a empty tuple argument."""
+from typing import Tuple
+
+
+def foo(x: Tuple[()]) -> None:
+    """Function that accepts an empty tuple."""
+    pass

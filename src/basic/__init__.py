@@ -1,0 +1,1 @@
+"""Basic level type annotation challenges."""

@@ -1,0 +1,7 @@
+services:
+  type-checker:
+    build: .
+    volumes:
+      - ./src:/app/src
+      - ./pyproject.toml:/app/pyproject.toml
+    working_dir: /app

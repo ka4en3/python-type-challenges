@@ -2,5 +2,4 @@
 
 
 def foo(x: tuple[str, int]) -> None:
-    """Function that accepts a tuple of (str, int)."""
-    pass
+    ...

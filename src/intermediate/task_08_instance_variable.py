@@ -2,5 +2,4 @@
 
 
 class Foo:
-    """Class with an instance variable."""
     bar: int

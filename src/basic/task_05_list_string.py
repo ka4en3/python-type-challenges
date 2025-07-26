@@ -2,5 +2,4 @@
 
 
 def foo(x: list[str]) -> None:
-    """Function that accepts a list of strings."""
-    pass
+    ...

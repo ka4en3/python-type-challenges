@@ -2,5 +2,4 @@
 
 
 def foo(x: int) -> None:
-    """Function that accepts an integer argument."""
-    pass
+    ...

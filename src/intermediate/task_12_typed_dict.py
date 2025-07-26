@@ -6,7 +6,6 @@ from typing import TypedDict
 
 
 class Student(TypedDict):
-    """TypedDict representing a student."""
     name: str
     age: int
     school: str

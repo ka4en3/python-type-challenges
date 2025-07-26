@@ -1,9 +1,6 @@
 """Task: Define a decorator that wraps a function and returns a function with the same signature."""
-from typing import Callable, TypeVar
-
-F = TypeVar('F', bound=Callable[..., Any])
+from typing import Callable, Any
 
 
-def decorator(func: F) -> F:
-    """Decorator that preserves function signature."""
+def decorator[T: Callable[..., Any]](func: T) -> T:
     return func

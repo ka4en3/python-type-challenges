@@ -2,5 +2,4 @@
 
 
 def foo() -> int:
-    """Function that returns an integer."""
     return 1

@@ -3,5 +3,4 @@ from typing import Union
 
 
 def foo(x: Union[str, int]) -> None:
-    """Function that accepts either a string or an integer."""
-    pass
+    ...

@@ -3,8 +3,5 @@ import typing
 
 
 class Foo:
-    """Class with method returning Self."""
-    
     def return_self(self) -> typing.Self:
-        """Return instance of the same type."""
         ...

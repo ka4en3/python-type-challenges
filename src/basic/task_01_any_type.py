@@ -2,6 +2,5 @@
 from typing import Any
 
 
-def foo(par1: Any):
-    """Function that accepts any type of argument."""
-    pass
+def foo(par1: Any) -> None:
+    ...

@@ -2,5 +2,4 @@
 
 
 def foo(x: dict[str, str]) -> None:
-    """Function that accepts a dictionary with string keys and values."""
-    pass
+    ...

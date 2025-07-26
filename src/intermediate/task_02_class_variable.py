@@ -3,5 +3,4 @@ from typing import ClassVar
 
 
 class Foo:
-    """Class with a class variable."""
     bar: ClassVar[int]

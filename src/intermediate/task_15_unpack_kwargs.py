@@ -3,11 +3,9 @@ from typing import TypedDict, Unpack
 
 
 class Person(TypedDict):
-    """TypedDict for unpacking kwargs."""
     name: str
     age: int
 
 
 def foo(**kwargs: Unpack[Person]) -> None:
-    """Function with typed kwargs."""
-    pass
+    ...
